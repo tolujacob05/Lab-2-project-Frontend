@@ -1,10 +1,41 @@
-.autum {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+.parent{
+        border: 3px solid black;
+        height: 400px;
+        width: 100%;
+        display: flex;
+
+
 }
-.autum img{
-    height: 60vh;
-    width: 100vw;
-    margin-right: 5rem;
+
+.pc1{
+    border: 2px solid rgb(107, 78, 78) ;
+    height: 100%;
+    width: 50%;
+    font-size: xx-large;
+    font-weight: 900;
+
+
+    
+
 }
+
+.pc2 { 
+    border: 2px solid blue ;
+    height: 100%;
+    width: 50%;
+    background-image: url("./Pictures/Autum.jpg");
+
+
+
+}
+
+.pc2 {
+
+}
+
+
+
+
+
