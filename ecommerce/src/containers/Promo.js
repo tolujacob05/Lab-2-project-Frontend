@@ -11,25 +11,23 @@ const Promo = () => {
             
                 <div className={styles.pc1}>
                  
-                    Shopping Experience <br/>
-                    made easier
-                 <button> Find store nearby</button>
-                 <button> Saved Stores</button>
-                </div>
-
-                {/* <div className={styles.pc2}>
-               <div className={styles.suh}>
-               <img src={Autum} alt="this is an autum promo" height={"400"} width={"400"}  /> 
-               </div>
-
-               
+                   <div className={styles.con}>
+                   Shopping Experience <br/>
+                    made easier 
+                   </div>
                 
-                </div> */}
+                    <div className={styles.Tb}>
+                    <div><button>Find store nearby</button></div>
+                    <div><button> Saved Stores</button></div>
+                    </div>
+
+                </div>
 
                 <div className={styles.pc2}>
-               
+
                 </div>
-              
+
+            
                 
                 
 
