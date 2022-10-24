@@ -5,8 +5,8 @@
 }
 body {
     background: rgb(196, 192, 192);
-    margin: 0;
-    border: 5px solid red;
+    
+    
     
 }
 .But {
@@ -59,7 +59,7 @@ h2 {
     box-shadow: 0px 25px 40px #1687d933;
     height: 400px;
     width: 70%;
-    background-image: url(./containers/Pictures/pic1.jpg);
+    background-image: url(./containers/Pictures/pic4.jpg);
 }
 
 .child2{
@@ -75,7 +75,8 @@ h2 {
     /* border: 3px solid brown ; */
     height: 50px;
     width: 40px;
-    background-image: url(./containers/Pictures/pic1.jpg);
+    background-image: url(./containers/Pictures/pic4.jpg);
+    
     
 }
 

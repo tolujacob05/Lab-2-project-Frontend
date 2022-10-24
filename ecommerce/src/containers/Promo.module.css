@@ -1,19 +1,43 @@
 .parent{
          border: 3px solid black; 
         height: 400px;
-        display: flex;
         height: 100%;
         width: 100%;
-        position: relative;
+        display: flex;
 }
 
 .pc1{
      border: 2px solid red ; 
     height: 820px;
     width: 100%;
-    font-size: xx-large;
-    font-weight: 900;
+    font-size: large;
+    font-size: 500%;
+    font-weight: bold;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+
+}
+
+.con{
+    border: 2px solid blueviolet;
+    /* height: 50%;
+    width: 100%; */
+    margin-top: 0%;
     
+ 
+}
+
+.Tb {
+    border: 2px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 250px;
+
+
+
 
 
 }
@@ -24,7 +48,7 @@
     /* border: 2px solid blue ; */
     height: 820px;
     width: 100%;
-   
+    
      background-image: url("./Pictures/Autum.jpg"); 
     
 
