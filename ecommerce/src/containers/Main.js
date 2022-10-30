@@ -4,6 +4,8 @@ import Footer from "./Footer"
 import Promo from "./Promo"
 import Stores from "./Stores"
 import Cart from "./Cart"
+import Login from "./Login"
+import Register from "./Register"
 
 const Main = () => {
     return (
@@ -18,6 +20,8 @@ const Main = () => {
                 <Stores />
                 <Cart />
                 <Footer />
+                <Register />
+                <Login />
                 
             </div>
         </>
