@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+// .main-container{
+//                 display: flex;
+//                 border: 4px solid  royalblue;
+//                 flex-direction: column;
+// }
+// .img-div{ 
+//     border: 3px solid #ff0000;
+//     height: 100%;
+//     width: 100%;
+
+// }
+
+
+.base-container {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border: 2px solid gray;
+
+
+}
+
+.headerroot{
+            display: flex;
+            border: 2px solid purple;
+
+
+}
+
+.header{
+        // border: 2px solid blue;
+        font-size: 24px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+
+
+
+}
+
+.btn{
+    font-size: 21px;
+    padding: 5px 70px;
+    border-radius: 6px; //adds the curve to the btn
+    border: 0;
+    background-color: rgb(45, 214, 67);
+    color: black;
+    transition: all 350ms ease-in-out;
+    cursor: pointer;
+    &:hover {
+        background-color: aqua;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.content  {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+
+    // border: solid blue 3px;
+    width: 21em;
+
+    img {
+       width: 100%;
+       height: 100%;
+     
+
+    }
+}
+
+.form {
+
+    // border: 3px solid yellow;
+    margin-top: 2em; //this add a space between the form and img
+    display: flex; 
+    flex-direction: column; //makes the child elements align in a cloumn
+    align-items: center; //pushes child items to the center
+        
+    
+        .form-group {
+            display: flex;
+            flex-direction: column; //aligns form items in a column
+            align-items: flex-start; //aligns labels to the start of flex
+            width: fit-content;
+
+            label{
+                font-size: 20px;
+            }
+
+            input {
+                    margin-top: 6px; //this add a space between the form and img
+                    max-width: 18em;
+                    height: 37px;
+                    padding: 0px 10px ;
+                    font-size: 16px;
+                    font-family: 'Open Sans', sans-serif;
+                    background-color: #f3f3f3;
+                    // border: 7px solid pink;
+                    border: 0;
+                    border-radius: 30px;
+                    margin-bottom: 31px; // adds space between two forms
+                    transition: all 250ms ease-in-out; &:focus{
+                        outline:  none;
+                        box-shadow: 0px 0px 12px 0.8px #ff0000;
+                    }
+                    // cursor: pointer;
+            }
+        }
+
+        .footer{
+
+                margin-top: 3em;
+    }
+}
